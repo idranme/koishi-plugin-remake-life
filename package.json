@@ -1,0 +1,37 @@
+{
+  "name": "koishi-plugin-remake-life",
+  "description": "Remake Life",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "author": {
+    "email": "idanran@outlook.com",
+    "name": "idanran",
+    "url": "https://github.com/idanran"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idanran/koishi-plugin-remake-life.git"
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "remake",
+    "life"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.15.0"
+  },
+  "koishi": {
+    "description": {
+      "zh": "重开人生",
+      "en": "Remake Life"
+    }
+  }
+}
