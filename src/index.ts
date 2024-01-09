@@ -8,12 +8,12 @@ export interface Config { }
 export const Config: Schema<Config> = Schema.object({})
 
 export function apply(ctx: Context) {
-  ctx.command('remake', '重开人生').action(() => {
+  ctx.command('remake', '重开你的人生').action(() => {
     const region = randomSelect(regions)
     if (region) {
       const location = randomSelect(locations)
       const identity = randomSelect(identities)
-      return `重开成功！你出生在<b>${region}</b>的<b>${location}</b>，是<b>${identity}</b>`
+      return `重开成功！你出生在<b>${region}</b>的<b>${location}</b>，是<b>${identity}</b>！`
     } else {
       return '重开失败！你没能出生！'
     }

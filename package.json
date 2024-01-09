@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-remake-life",
   "description": "Remake Life",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -31,7 +31,7 @@
   "koishi": {
     "browser": true,
     "description": {
-      "zh": "重开人生",
+      "zh": "重开你的人生",
       "en": "Remake Life"
     }
   }
