@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-remake-life",
   "description": "Remake Life",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -23,7 +23,9 @@
     "koishi",
     "plugin",
     "remake",
-    "life"
+    "life",
+    "reborn",
+    "rebirth"
   ],
   "peerDependencies": {
     "koishi": "^4.15.0"

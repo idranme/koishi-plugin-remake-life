@@ -14,9 +14,8 @@ export function apply(ctx: Context) {
       const location = randomSelect(locations)
       const identity = randomSelect(identities)
       return `<quote id="${session.messageId}"/>重开成功！你出生在<b>${region}</b>的<b>${location}</b>，是<b>${identity}</b>！`
-    } else {
-      return `<quote id="${session.messageId}"/>重开失败！你没能出生！`
     }
+    return `<quote id="${session.messageId}"/>重开失败！你没能出生！`
   })
 }
 
