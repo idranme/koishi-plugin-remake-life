@@ -16,7 +16,11 @@ export function apply(ctx: Context) {
       let location: string
       let identity: string
       if(Object.keys(specialLocations).includes(region)) {
-        location = Random.pick(specialLocations[region])
+        // 随机在普通和特殊之间抽取
+        location = Random.pick([
+          ...specialLocations[region],
+          ...locations
+        ])
       } else {
         location = Random.pick(locations)
       }
